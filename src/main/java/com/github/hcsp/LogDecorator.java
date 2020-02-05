@@ -1,7 +1,7 @@
 package com.github.hcsp;
 
 public class LogDecorator implements DataService {
-    DataService delegate;
+    private DataService delegate;
 
     public LogDecorator(DataService delegate) {
         this.delegate = delegate;
